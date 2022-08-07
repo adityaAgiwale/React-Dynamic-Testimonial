@@ -1,0 +1,86 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee333;
+  padding: 30px;
+  border-radius: 14px;
+}
+
+@media (min-width: 756px) {
+  .review {
+    width: 400px;
+  }
+}
+
+.personImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.personName {
+  color: black;
+  font-weight: 700;
+  margin: 0;
+  font-size: 22px;
+}
+
+.designation {
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.testimonials {
+  text-align: center;
+  font-size: 14px;
+}
+
+.navigation > button {
+  background-color: transparent;
+  border: none;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  margin: 0px 5px;
+}
+
+.navigation > button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.random {
+  margin-top: 20px;
+  background-color: black;
+  border: none;
+  padding: 10px 14px;
+  font-size: 17px;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.random:hover {
+  cursor: pointer;
+}
